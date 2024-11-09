@@ -7,7 +7,7 @@ import {WebcamModule} from 'ngx-webcam';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [RouterOutlet, WebcamModule],
+  imports: [RouterOutlet, WebcamModule, CameraComponent],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css'
 })
