@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.wrapper {
+    width: 100vw;
+    height: 100vh;
+    background-color: green;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    color: beige;
+    text-shadow: 2px 2px 3px black;
+}
+
+.background {
+    background-image: url("../../../public/house.jpg");
+    box-sizing: border-box;
+    filter: blur(8px);
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+    position: absolute;
+}
+
+.top-text {
+    font-size: 24px;
+    position: relative;
+    z-index: 2;
+    margin-top: 32px;
+}
+
+.mid-text {
+    font-size: 48px;
+    position: relative;
+    z-index: 2;
+    word-wrap: break-word;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bot-text {
+    font-size: 48px;
+    position: relative;
+    z-index: 2;
+    margin-bottom: 32px;
+    box-sizing: border-box;
+    margin: 16px;
+    border-radius: 10px;
+    border: orange solid 5px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.enable-blur>* {
+    filter: blur(8px)
+}
+
+.disable-blur {
+    filter: blur(0);
+}

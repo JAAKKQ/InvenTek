@@ -1,0 +1,11 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    box-sizing: border-box;
+    padding: 32px;
+}
+
+.select {
+    font-size: 48px;
+}

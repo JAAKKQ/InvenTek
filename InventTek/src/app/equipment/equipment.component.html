@@ -1,1 +1,21 @@
-<p>equipment works!</p>
+<div class="wrapper">
+    <div class="select">
+        Equipment
+    </div>
+    @for (equip of equips(); track equip.id) {
+        <div class="card">
+            <div>
+                Manucfacturer: {{equip.manufacturer}}
+            </div>
+            <div>
+                Model: {{equip.model}}
+            </div>
+            <div>
+                Serial Num: {{equip.serialNum}}
+            </div>
+            <div>
+                Year: {{equip.year}}
+            </div>
+        </div>
+    }
+</div>
