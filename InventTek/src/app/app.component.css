@@ -1,0 +1,8 @@
+/* camera.component.css */
+video {
+    width: 100%;
+    max-width: 640px;
+    height: auto;
+    border: 1px solid #ccc;
+  }
+  
