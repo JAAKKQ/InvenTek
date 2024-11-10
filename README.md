@@ -1,4 +1,4 @@
-# InventTek
+# InvenTech
 
 ## Equipment inventory management software solution
 
