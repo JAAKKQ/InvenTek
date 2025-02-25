@@ -43,4 +43,4 @@ InvenTech’s app is designed with a focus on simplicity, allowing users of any 
 - [Chad Clusker](https://www.linkedin.com/in/chad-clusker/)
 - [Dylan Camporotondo](https://www.linkedin.com/in/dylan-camporotondo-b6a199275/)
 - [Andrey Gurevich](https://www.linkedin.com/in/andrey-gurevich-888595169/)
-- [Rene Kärkkäinen]()
+- [Rene Kärkkäinen](https://www.linkedin.com/in/renekarkkainen/)
